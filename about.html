@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+  <title>About Us | Secure Shield Solutions</title>
+
+  <!-- Archivo font (falls back to system fonts if it fails to load) -->
+  <link href="https://fonts.googleapis.com/css2?family=Archivo:wght@400;600;800&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="css/main.css">
+</head>
+<body>
+
+  <!-- ===== Header: logo + main navigation (same on every page) =====
+       The link for the page you are on carries aria-current="page",
+       which styles.css underlines. -->
+  <header>
+    <div class="wrap">
+      <a class="logo" href="index.html" aria-label="Secure Shield Solutions home">
+        <svg viewBox="0 0 32 32" aria-hidden="true">
+          <path d="M16 2 4 7v8c0 7 5 12 12 15 7-3 12-8 12-15V7z" fill="var(--brand)"/>
+          <path d="M9 21 16 8l7 13h-4l-3-6-3 6z" fill="var(--signal)"/>
+        </svg>
+        SECURE SHIELD SOLUTIONS
+      </a>
+
+      <nav aria-label="Primary">
+        <a href="index.html">Home</a>
+        <a href="about.html" aria-current="page">About Us</a>
+        <a href="services.html">Cybersecurity Services</a>
+        <a href="incident-response.html">Incident Response</a>
+        <a href="training.html">Training &amp; Awareness</a>
+        <a href="backup-recovery.html">Backup &amp; Recovery</a>
+        <a href="contact.html">Contact Us</a>
+      </nav>
+    </div>
+  </header>
+
+  <!-- ===== Page content ===== -->
+  <main>
+    <!-- About Us -->
+    <section class="page">
+      <div class="wrap">
+        <h2 class="title">About Us</h2>
+        <p class="sub">Secure Shield Solutions is a cybersecurity company that helps organizations protect their systems, data and people.</p>
+        <div class="prose">
+          <p>Our team of security specialists assesses risk, defends networks and devices, and helps organizations prepare for and recover from incidents.</p>
+          <p>Security is part of every project from the first design decision, not an add-on at the end.</p>
+        </div>
+        <div class="cols">
+          <div><h3>Security-first</h3><p>Least-access design and clear boundaries in every system.</p></div>
+          <div><h3>Business-minded</h3><p>We tailor protection to how your organization actually works.</p></div>
+          <div><h3>Plain communication</h3><p>Clear reports and honest advice you can act on.</p></div>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <!-- ===== Footer (same on every page; links are placeholders) ===== -->
+  <footer>
+    <div class="wrap">
+      <span>&copy; 2026 Secure Shield Solutions</span>
+      <nav aria-label="Footer">
+        <a href="#">Privacy</a>
+        <a href="#">Acceptable use</a>
+        <a href="#">Security reporting</a>
+        <a href="#">Terms</a>
+      </nav>
+    </div>
+  </footer>
+
+</body>
+</html>
